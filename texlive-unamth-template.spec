@@ -1,18 +1,12 @@
-# revision 33625
-# category Package
-# catalog-ctan /macros/latex/contrib/unamth-template
-# catalog-date 2014-04-22 19:24:17 +0200
-# catalog-license gpl3
-# catalog-version 2.0
 Name:		texlive-unamth-template
-Version:	2.0
-Release:	5
+Version:	33625
+Release:	1
 Summary:	UNAM Thesis LaTeX Template
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/unamth-template
 License:	GPL3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/unamth-template.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/unamth-template.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/unamth-template.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/unamth-template.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -60,7 +54,7 @@ Department template.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
