@@ -1,6 +1,6 @@
 Name:		texlive-unamth-template
-Version:	33625
-Release:	2
+Version:	68681
+Release:	1
 Summary:	UNAM Thesis LaTeX Template
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/unamth-template
