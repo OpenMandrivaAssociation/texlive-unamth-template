@@ -3,7 +3,7 @@ Version:	68681
 Release:	1
 Summary:	UNAM Thesis LaTeX Template
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/unamth-template
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/unamth-template
 License:	GPL3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/unamth-template.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/unamth-template.doc.r%{version}.tar.xz
